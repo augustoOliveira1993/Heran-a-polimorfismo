@@ -22,6 +22,6 @@ public class SavingAccount extends Account{
 	}
 	
 	public void updatedBalance() {
-		this.balance += this.interestRate;
+		this.balance += this.balance * this.interestRate;
 	}
 }
