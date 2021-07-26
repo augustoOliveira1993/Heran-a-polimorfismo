@@ -40,7 +40,7 @@ public class Account {
 	}
 	
 	public void withdrow(double amount) {
-		this.balance -= amount;
+		this.balance -= amount + 5.00;
 	}
 	
 	public void deposit(double amount) {

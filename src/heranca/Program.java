@@ -1,4 +1,4 @@
-package application;
+package heranca;
 
 import entities.Account;
 import entities.BusinessAccount;
